@@ -49,10 +49,20 @@ aside {
 }
 
 nav::before,
+div::before,
 section::before,
 article::before,
 aside::before {
   color: #9779ec;
+}
+
+div {
+  background-color: #f9f7ff;
+  border: 2px solid #ec7979;
+}
+
+div::before {
+  color: #ec7979;
 }
 
 h1,
@@ -182,4 +192,7 @@ aside::before {
 
 nav::before {
   content: "nav";
+}
+div::before{
+  content: "div"
 }
