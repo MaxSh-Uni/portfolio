@@ -104,6 +104,46 @@ button:hover{
     border-radius: 50%;
 }
 
+.skill-list {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    }
+.skill-list dt {
+    margin-bottom: 6px;
+    padding: 5px 0 5px 38px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+.skill-level {
+    margin: 4px 0 20px;
+    padding: 2px;
+    font-size: 0;
+    border: 1px solid var(--txt-color);
+    border-radius: 16px;
+}
+.skill-level div {
+    height: 14px;
+    background-color: var(--second-color);
+    border-radius: 8px;
+}
+.skill-item {
+    transform: lowercase;
+}
+.html {
+    background-image: url("/img/skill=html.svg");
+}
+.css {
+    background-image: url("/img/skill=css.svg");
+}
+.cpp {
+    background-image: url("/img/skill=c++.svg");
+}
+.python {
+    background-image: url("/img/skill=python.svg");
+}
+
 .social-list {
     margin: 0;
     padding: 0;
@@ -140,6 +180,7 @@ button:hover{
     background-repeat: no-repeat;
     background-position: center;
 }
+
 .social-link:hover{
     background-color: var(--second-color);
 }
@@ -168,8 +209,10 @@ button:hover{
 
 .contact-list li {
     display: inline-block;
-    margin:40px;
-    margin-left: 0;
+
+    /* margin:40px;
+    margin-left: 0; */
+
     padding: 0;
 }
 
