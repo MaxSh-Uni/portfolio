@@ -99,3 +99,92 @@ button:hover{
     background-color: var(--second-color);
     color: var(--bg-color);
 }
+
+.social-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.social-list li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.social-link{
+    display: block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--second-color);
+    border-radius: 50%;
+    padding: 10px;
+    background-color: var(--bg-color);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.social-link:hover{
+    background-color: var(--second-color);
+}
+
+.github {
+    background-image: url(/img/social=github.svg);
+}
+.gitlab {
+    background-image: url(/img/social=gitlab.svg);
+}
+.x {
+    background-image: url(/img/X.svg);
+}
+.telegram {
+    background-image: url(/img/social=telegram.svg);
+}
+.vk {
+    background-image: url(/img/social=vk.svg);
+}
+    
+.contact-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.contact-list li {
+    display: inline-block;
+    margin:40px;
+    margin-left: 0;
+    padding: 0;
+}
+
+.contact-link {
+    display: block;
+    text-decoration: none;
+    padding: 5px 0px 5px 42px;
+    color: var(--txt-color);
+    background-repeat: no-repeat;
+}
+
+.contact-link:hover {
+    color: var(--second-color)
+}
+
+.email {
+    background-image: url("/img/icon=emailBlack.svg");
+}
+
+.phone {
+    background-image: url("/img/icon=phoneBlack.svg");
+}
