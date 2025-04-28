@@ -66,3 +66,10 @@ a {
     line-height: 100%;
     letter-spacing: 0%;
 }
+
+.container {
+    min-width: 320px;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
