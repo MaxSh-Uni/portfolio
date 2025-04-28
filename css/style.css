@@ -186,19 +186,19 @@ button:hover{
 }
 
 .github {
-    background-image: url(/img/social=github.svg);
+    background-image: url(../img/social=github.svg);
 }
 .gitlab {
-    background-image: url(/img/social=gitlab.svg);
+    background-image: url(../img/social=gitlab.svg);
 }
 .x {
-    background-image: url(/img/X.svg);
+    background-image: url(../img/X.svg);
 }
 .telegram {
-    background-image: url(/img/social=telegram.svg);
+    background-image: url(../img/social=telegram.svg);
 }
 .vk {
-    background-image: url(/img/social=vk.svg);
+    background-image: url(../img/social=vk.svg);
 }
     
 .contact-list {
