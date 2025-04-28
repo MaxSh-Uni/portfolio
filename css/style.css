@@ -20,7 +20,7 @@ body {
     background-color: var(--bg-color);
 }
 
-footer {
+.main-footer {
     color: var(--bg-color);
     background-color: var(--txt-color);
 }
@@ -72,4 +72,30 @@ a {
     max-width: 1280px;
     margin: 0 auto;
     padding: 0 20px;
+}
+
+.main-nav a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: var(--txt-color);
+}
+
+.main-nav a:hover {
+    color: var(--second-color);
+}
+
+button {
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid var(--second-color);
+    border-radius: 8px;
+    color: var(--second-color);
+    background-color: var(--bg-color);
+    padding: 6px 10px 10px 10px;
+}
+
+button:hover{
+    background-color: var(--second-color);
+    color: var(--bg-color);
 }
