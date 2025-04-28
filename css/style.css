@@ -229,9 +229,9 @@ button:hover{
 }
 
 .email {
-    background-image: url("/img/icon=emailBlack.svg");
+    background-image: url("../img/icon=emailBlack.svg");
 }
 
 .phone {
-    background-image: url("/img/icon=phoneBlack.svg");
+    background-image: url("../img/icon=phoneBlack.svg");
 }
