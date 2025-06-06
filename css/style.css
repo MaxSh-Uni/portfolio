@@ -141,6 +141,22 @@ button:hover{
     max-width: 800px;
 }
 
+.skill-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    margin-bottom: 40px;
+}
+.skill-header h2 {
+    margin-bottom: 0px;
+}
+
+.skill-header div * {
+    margin: 0;
+    margin-left: 20px;
+}
+
+
 .skill-list {
     margin: 0;
     padding: 0;
