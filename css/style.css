@@ -151,7 +151,7 @@ button:hover{
     margin-bottom: 0px;
 }
 
-.skill-header div * {
+.skill-header div button {
     margin: 0;
     margin-left: 20px;
 }
@@ -201,7 +201,16 @@ button:hover{
 .contact-list {
     margin: 0;
     padding: 0;
-    list-style-type: none;
+    /* list-style-type: none; */
+    display: flex;
+    justify-content: space-between;
+}
+.contact-list {
+    width: 420px;
+    margin-bottom: 40px;
+}
+.social-list {
+    width: 330px;
 }
 
 .social-list li,
