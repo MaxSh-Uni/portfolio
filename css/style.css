@@ -25,6 +25,13 @@ body {
     background-color: var(--bg-color);
 }
 
+.main-header {
+    display: flex;
+    padding-top: 60px;
+    gap: 40px;
+    align-items: center;
+}
+
 .main-footer {
     color: var(--bg-color);
     background-color: var(--txt-color);
@@ -87,8 +94,11 @@ button:hover{
     padding: 0 20px;
 }
 
+.main-nav {
+    display: flex;
+}
+
 .main-nav a {
-    display: inline-block;
     padding: 10px 15px;
     text-decoration: none;
     color: var(--txt-color);
