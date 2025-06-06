@@ -108,6 +108,20 @@ button:hover{
     color: var(--second-color);
 }
 
+.me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.me h1 {
+    margin: 0;
+    margin-bottom: 20px;
+}
+.subtitle {
+    margin: 0;
+}
+
 .my-photo {
     border-radius: 50%;
 }
