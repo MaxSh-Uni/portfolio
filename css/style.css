@@ -25,15 +25,14 @@ body {
     color: var(--txt-color);
     background-color: var(--bg-color);
 }
-img{
-    margin: 0;
-    padding: 0;
-}
+
 .main-header {
     display: flex;
     padding-top: 60px;
     gap: 40px;
     align-items: center;
+    margin: 0;
+    margin-bottom: 120px;
 }
 
 .main-footer {
@@ -103,11 +102,6 @@ button:hover{
 }
 
 section {
-    margin: 0;
-    margin-bottom: 120px;
-}
-
-.main-header {
     margin: 0;
     margin-bottom: 120px;
 }
