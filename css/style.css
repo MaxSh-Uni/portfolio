@@ -36,6 +36,9 @@ body {
     margin: 0;
     margin-bottom: 120px;
 }
+.main-header-wrap{
+    display: flex;
+}
 
 .main-footer {
     color: var(--bg-color);
@@ -174,7 +177,7 @@ section {
     margin: 0;
     padding: 0;
     line-height: 1;
-    }
+}
 .skill-list dt {
     margin-bottom: 6px;
     padding: 5px 0 5px 38px;
@@ -216,13 +219,16 @@ section {
     padding: 0;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .contact-list {
-    width: 420px;
+    justify-content: flex-start;
+    gap: 40px;
     margin-bottom: 40px;
 }
 .social-list {
-    width: 330px;
+    justify-content: flex-start;
+    gap: 20px;
 }
 
 .social-list li,
@@ -322,11 +328,27 @@ section {
     .subtitle {
         font-size: 28px;
     }
+    section{
+        margin-bottom: 80px;
+    }
+
+    .main-header{
+        margin-bottom: 80px;
+    }
 
     .me img{
         width: 250px;
         height: 250px;
     }
+
+    .contact-link {
+        padding: 7px 0px 7px 42px;
+    }
+
+    /* .skill-level{
+        margin-top: 8px;
+        margin-bottom: 22px;
+    } */
 }
 
 @media screen and (max-width: 650px) {
@@ -408,11 +430,34 @@ section {
     .skill-header{
         margin-bottom: 30px;
     }
+
+    .contact-list {
+        margin-bottom: 20px;
+    }
+    .contact-link {
+        padding: 8px 0px 8px 42px;
+    }
+    .social-list{
+        gap: 15px;
+    }
+
+    .main-footer {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    /* .skill-level{
+        margin-top: 9px;
+        margin-bottom: 24px;
+    } */
 }
 
 @media screen and (max-width: 360px) {
     .skill-header{
         flex-direction: column;
+    }
+    .skill-header h2{
+        margin-bottom: 20px;
     }
     .skill-header div {
         flex-direction: column;
@@ -421,5 +466,13 @@ section {
     }
     .skill-header button {
         width: 100%;
+    }
+
+    .contact-list {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .social-list {
+        gap: 15px;
     }
 }
