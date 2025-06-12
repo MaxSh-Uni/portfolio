@@ -160,6 +160,8 @@ section {
     justify-content: space-between;
     margin: 0;
     margin-bottom: 40px;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 .skill-header h2 {
     margin-bottom: 0px;
@@ -186,7 +188,7 @@ section {
     background-size: 30px;
 }
 .skill-level {
-    margin: 4px 0 20px;
+    margin: 0 0 20px;
     padding: 1px;
     font-size: 0;
     border: 1px solid var(--txt-color);
@@ -345,10 +347,9 @@ section {
         padding: 7px 0px 7px 42px;
     }
 
-    /* .skill-level{
-        margin-top: 8px;
-        margin-bottom: 22px;
-    } */
+    .skill-list dt {
+        padding: 7px 0 7px 38px;
+    }
 }
 
 @media screen and (max-width: 650px) {
@@ -446,18 +447,28 @@ section {
         padding-bottom: 30px;
     }
 
-    /* .skill-level{
-        margin-top: 9px;
-        margin-bottom: 24px;
-    } */
+    .skill-list dt {
+        padding: 8px 0 8px 38px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .skill-header{
+        flex-direction: column;
+    }
+    .skill-header div {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .skill-header button {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 360px) {
     .skill-header{
         flex-direction: column;
-    }
-    .skill-header h2{
-        margin-bottom: 20px;
     }
     .skill-header div {
         flex-direction: column;
