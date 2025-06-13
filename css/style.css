@@ -343,6 +343,10 @@ section {
         height: 250px;
     }
 
+    .skill-header h2 {
+        align-self: center;
+    }
+
     .contact-link {
         padding: 7px 0px 7px 42px;
     }
@@ -464,10 +468,13 @@ section {
     .skill-header button {
         width: 100%;
     }
+    .skill-header h2 {
+        align-self:flex-start;
+    }
 }
 
 @media screen and (max-width: 360px) {
-    .skill-header{
+    /* .skill-header{
         flex-direction: column;
     }
     .skill-header div {
@@ -477,7 +484,7 @@ section {
     }
     .skill-header button {
         width: 100%;
-    }
+    } */
 
     .contact-list {
         flex-direction: column;
