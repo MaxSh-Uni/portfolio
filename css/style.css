@@ -105,6 +105,10 @@ button:hover{
     background-color: var(--second-color);
     color: var(--bg-color);
 }
+.nav-btn:hover{
+    color: var(--second-color);
+    background-color: var(--bg-color);
+}
 
 section {
     margin: 0;
@@ -379,6 +383,9 @@ section {
     .main-nav {
         flex-direction: column;
         text-align: center;
+    }
+    .main-nav_closed {
+        display: none;
     }
     .main-nav a{
         padding: 20px 30px;
