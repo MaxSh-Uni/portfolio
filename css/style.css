@@ -15,6 +15,15 @@
     --bg-color: #FFFFFF;
 }
 
+.dark-theme {
+    --txt-color: #CCCCCC;
+    --bg-color: #212121;
+}
+
+.dark-theme .social-link {
+    background-color: #CCCCCC;
+}
+
 a {display: inline-block}
 img {display: block}
 
@@ -295,6 +304,14 @@ section {
 
 .phone {
     background-image: url("../img/icon=phoneBlack.svg");
+}
+
+.dark-theme .email {
+    background-image: url("../img/icon=email.svg");
+}
+
+.dark-theme .phone {
+    background-image: url("../img/icon=phone.svg");
 }
 
 .main-footer {
