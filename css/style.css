@@ -13,6 +13,7 @@
     --txt-color: #212121;
     --second-color: #09A494;
     --bg-color: #FFFFFF;
+    --error-color: #ff3333;
 }
 
 .dark-theme {
@@ -321,6 +322,11 @@ section {
 
 .nav-btn {
     display: none;
+}
+
+.skill-error {
+    color: var(--error-color);
+    
 }
 
 @media screen and (max-width: 1024px) {
