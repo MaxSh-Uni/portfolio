@@ -567,3 +567,7 @@ section {
     background-position: center;
     background-size: 24px;
 }
+
+.hidden{
+    display: none !important;
+}
